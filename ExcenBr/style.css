@@ -1,0 +1,164 @@
+element.style {
+	width: 450px;
+	float: left;
+}
+
+html, body {
+	margin: 0px;
+	font: 12px Trebuchet, Ariel, sans-serif;
+	background: url(http://www.excen.com.br/img/stripe.png);
+}
+
+body {
+	display: block;
+	margin: 0px;
+}
+
+/*header with link to unifei.edu.br*/
+a, a:visited {
+	color:#666;
+}
+
+a:-webkit-any-link{
+	color: webkit-link;
+	cursor: auto;
+	text-decoration: underline;
+}
+
+div{
+	display: block;
+}
+
+#unifei {
+	width: 100%;
+	background-image: url(http://www.excen.com.br/img/barra_topo.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 26px;
+	margin: 0;
+}
+
+/* first div with the header image and two bottoms*/
+
+#topo span {
+	float: left;
+	margin: 15px 30px;
+}
+
+#topo {
+	width: 930px;
+	margin: 0 auto;
+	padding: 0 15px;
+	height: 240px;
+	text-align: center;
+	background: url(http://www.excen.com.br/img/cabecalho.png) no-repeat bottom;
+	font-weight: bold;
+}
+
+#topo ul li {
+	float: left;
+	line-height: 30px;
+	margin: 10px 1px 0;
+	list-style: none;
+}
+
+li {
+	display: list-item;
+	text-align: -webkit-match-parent;
+}
+
+#topo ul {
+	padding: 0;
+	margin: 0;
+	float: right;
+	height: 28px;
+	list-style: none;
+}
+
+ul, menu, dir {
+	display: block;
+	-webkit-margin-before:1em;
+	-webkit-margin-after:1em;
+	-webkit-margin-start:0px;
+	-webkit-margin-end:0px;
+	-webkit-padding-start:40px;
+}
+
+#topo a, #topo a:visited {
+	color: #000;
+	text-decoration: none;
+	background: url(http://www.excen.com.br/img/menu_topo.gif);
+	width: 94px;
+	height: 28px;
+	display: block;
+}
+
+/* The boddy with the nemu and all texts*/
+#excen {
+	width: 960px;
+	margin: 0 auto;
+	background: url(http://www.excen.com.br/img/bg.gif) repeat-y top right;
+	padding: 0;
+}
+
+#menu {
+	float: left;
+	width: 132px;
+	text-align: center;
+	margin: 0px;
+	padding: 15px 0px;
+	list-style: none;
+}
+
+#menu li {
+	line-height: 30px;
+	list-style: none;
+}
+
+#menu a, #menu:visited {
+	color: rgb(0, 0, 0);
+	font-weight: bold;
+	width: 132px;
+	height: 32px;
+	display: block;
+	text-decoration: none;
+	background:url(http://www.excen.com.br/img/menu_bt.gif) left center no-repeat;
+}
+
+#conteudo {
+	float: left;
+	width: 630px;
+	color: rgb(0, 0, 0);
+	text-align: justify;
+	min-height: 325px;
+	padding: 15px 22px;
+	background: url(http://www.excen.com.br/img/canto.gif) right top no-repeat;
+	font: 13px/1.4em Georgia, Arial, Times, serif;
+}
+
+object[Attributes Style] {
+	width: 125px;
+	height: 125px;
+}
+
+#conteudo p, #conteudo li {
+	margin: 0px;
+	padding: 0px 0px 10px;
+}
+
+#direita {
+	float: right;
+	width: 130px;
+	padding: 10px 12px;
+}
+
+#rodape {
+	width: 620px;
+	height: 35px;
+	text-align: center;
+	clear: both;
+	font-size: 0.9em;
+	color: rgb(102, 102, 102);
+	margin: 0px 180px 0px 160px;
+	border-top: 1px solid rgb(102, 102, 102);
+}
