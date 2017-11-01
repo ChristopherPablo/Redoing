@@ -1,0 +1,65 @@
+div {
+	display: block;
+}
+
+body {
+	margin: 0px;
+	background-color: #000000;
+	font-family: Helvetica Neue, Helvetica;
+	color: #fff;
+}
+
+p {
+	display: block;
+	-webkit-margin-before: 1em;
+	-webkit-margin-after: 1em;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
+}
+
+element.style {
+	cursor: url(chrome-extension://ohcpnigalekghcmgcdcenkpelffpdolg/img/crosshair.png) 16 16, crosshair;
+}
+
+a:-webkit-any-link {
+	color: webkit link;
+	cursor: auto;
+	text-decoration: none;
+}
+
+h1 {
+	display: block;
+	font-size: 2em;
+	-webkit-margin-before: 0.67em;
+	-webkit-margin-after: 0.67em;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
+	font-weight: bold;
+}
+
+body .content {
+	background: url(http://ianenders.com/gitrdone.png) no-repeat top right;
+	height: 1398px;
+	width: 1600px;
+	margin: 0 0 0 auto;
+	padding-left: 50px;
+}
+
+body .content p {
+	font-size: 17px;
+	margin: 5px 0 10px 10px;
+	padding: 0px;
+}
+
+body .content h1 {
+	font-weight: normal;
+	padding: 25px 0 0;
+	margin: 0px;
+	font-size: 130px;
+}
+
+body a {
+	color: #FFA500;
+	text-decoration: none;
+}
+
